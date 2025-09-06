@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Wyclose — Conecte. Crie. Cresça.</title>
+<meta name="description" content="Wyclose — hub global para conteúdo, redes e IA.">
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="#home"><img src="/assets/icon-192.png" alt="Wyclose logo"><span>Wyclose</span></a>
+    <nav class="nav">
+      <a href="#home">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Recursos</a>
+      <a href="#testimonials">Depoimentos</a>
+      <a href="#contact">Contato</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Wyclose</h1>
+      <p class="lead">Conecte pessoas, conteúdos e negócios — IA guiando o crescimento.</p>
+      <div class="cta">
+        <a class="btn primary" href="#services">Explorar</a>
+        <a class="btn ghost" href="#contact">Fale conosco</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Sobre o Wyclose</h2>
+      <p>Wyclose é um ecossistema pensado para criar e distribuir conteúdo globalmente, com suporte multilíngue e uma assistente de IA para automatizar tarefas e resolver problemas do site.</p>
+      <div class="features grid-2">
+        <div class="card">
+          <h3>Missão</h3>
+          <p>Democratizar a publicação e a monetização de conteúdo, com ferramentas fáceis e automações inteligentes.</p>
+        </div>
+        <div class="card">
+          <h3>Visão</h3>
+          <p>Ser a plataforma de referência para criadores que querem alcançar o mundo em sua língua nativa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section alt">
+    <div class="container">
+      <h2>Recursos</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>PWA Instalável</h3>
+          <p>Instale Wyclose no celular e acesse rápido como um app.</p>
+        </div>
+        <div class="card">
+          <h3>Assistente IA</h3>
+          <p>IA dedicada para sugerir melhorias e corrigir erros automaticamente.</p>
+        </div>
+        <div class="card">
+          <h3>Monetização</h3>
+          <p>Integração futura com anúncios, afiliados e patrocínios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2>Depoimentos</h2>
+      <div class="test-list">
+        <blockquote class="test">
+          <p>"Wyclose facilitou muito a distribuição do meu conteúdo. Ferramenta poderosa e simples."</p>
+          <cite>— Usuário Satisfeito</cite>
+        </blockquote>
+        <blockquote class="test">
+          <p>"A IA ajudou a identificar problemas e a melhorar o SEO do meu site."</p>
+          <cite>— Criador Global</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container grid-2">
+      <div>
+        <h2>Contato</h2>
+        <p>Envie uma mensagem — por enquanto as mensagens são guardadas localmente (demonstração).</p>
+        <form id="contactForm" class="card">
+          <label>Nome <input name="name" type="text" required></label>
+          <label>Email <input name="email" type="email" required></label>
+          <label>Mensagem <textarea name="message" rows="4" required></textarea></label>
+          <button class="btn primary" type="submit">Enviar</button>
+          <small id="formStatus" aria-live="polite"></small>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Redes & Links</h3>
+        <ul class="links">
+          <li><a href="https://www.youtube.com/@ContatoGlloopy" target="_blank">YouTube</a></li>
+          <li><a href="#" aria-disabled="true">Em breve: Painel Wyclose</a></li>
+          <li><a href="#" aria-disabled="true">Em breve: App Wyclose</a></li>
+        </ul>
+        <p style="margin-top:8px;">Quando tiver seus links oficiais, atualize em <code>index.html</code>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Wyclose — Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="/script.js" defer></script>
+</body>
+</html>
